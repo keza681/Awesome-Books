@@ -1,73 +1,55 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](http:///)
 
-# Project Name
+# *Manage books collection*
 
-> Description the project.
+ >(Plain JS with objects)
+
+
+
+
+![Screenshot](./)
+
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+ Major languages
+- HTML
+- CSS
+- JAVASCRIPT
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Keza**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [Visit my github](https://github.com/keza681)
+- Twitter: [Visit my twitter](https://twitter.com/LKeza19)
+- LinkedIn: [Linkedin Profile](https://www.linkedin.com/in/linda-keza-a10150218/)
 
-👤 **Author2**
+👤 **Saib**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@MdSaib](https://github.com/MdSaib)
+- Twitter: [@mdsaib45](https://twitter.com/mdsaib45)
+- LinkedIn: [Md Saib](https://linkedin.com/in/mdsaib)
+
+
+
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues, and feature requests are welcome😉
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/keza681/Awesome-Books/issues).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Leave a ⭐️ if you like this project!
 
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./MIT.md) licensed
