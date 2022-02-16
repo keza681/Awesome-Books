@@ -1,4 +1,4 @@
-![](http:///)
+![](http://127.0.0.1:5501/?title=hty&author=iuo)
 
 # *Manage books collection*
 
@@ -7,8 +7,7 @@
 
 
 
-![Screenshot](./)
-
+![Screenshot](./screenshot.png)
 
 
 ## Built With
@@ -26,13 +25,6 @@
 - GitHub: [Visit my github](https://github.com/keza681)
 - Twitter: [Visit my twitter](https://twitter.com/LKeza19)
 - LinkedIn: [Linkedin Profile](https://www.linkedin.com/in/linda-keza-a10150218/)
-
-👤 **Saib**
-
-- GitHub: [@MdSaib](https://github.com/MdSaib)
-- Twitter: [@mdsaib45](https://twitter.com/mdsaib45)
-- LinkedIn: [Md Saib](https://linkedin.com/in/mdsaib)
-
 
 
 
