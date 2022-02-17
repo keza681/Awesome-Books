@@ -43,13 +43,6 @@ h2 {
   padding: 10px 5px;
 }
 
-.remove {
-  text-align: center;
-  padding: 2px;
-  height: 25px;
-  cursor: pointer;
-}
-
 .books-wrapper li:nth-child(odd) {
   background-color: #999;
   color: #000;
@@ -67,11 +60,46 @@ form {
 }
 
 .books-wrapper,
-input, .add-btn {
+input,
+.add-btn {
   border: 3px solid black;
   text-transform: capitalize;
 }
 
 .remove {
-  box-shadow: 3px 2px 0px 0px black;
-  border:
+  box-shadow: 3px 2px 0 0 black;
+  border: 2px solid black;
+  text-align: center;
+  padding: 2px;
+  height: 25px;
+  cursor: pointer;
+}
+
+form input {
+  width: 300px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+form button {
+  width: 70px;
+}
+
+.line {
+  width: 300px;
+  border: 2px solid rgb(31, 31, 31);
+  display: block;
+  margin: 15px 0;
+}
+
+.short {
+  width: 100px;
+}
+
+.add-btn {
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  left: 76%;
+}
