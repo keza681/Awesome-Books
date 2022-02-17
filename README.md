@@ -1,13 +1,13 @@
-![](http://127.0.0.1:5501/?title=hty&author=iuo)
+![](http://127.0.0.1:5501/)
 
 # *Manage books collection*
 
- >(Plain JS with objects)
+ >(Plain JS with classes)
 
 
 
 
-![Screenshot](./screenshot.png)
+![Screenshot](./screenshot2.png)
 
 
 ## Built With
