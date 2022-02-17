@@ -13,16 +13,29 @@
     <nav class="nav">
       <h1 class="nav-title">Awesome Books</h1>
     </nav>
-    <div class="time-div">
-      <p class="time"></p>
-    </div>
+  
     <section class="section1">
-      <div class="books-wrapper" id="books"></div>
+      <h2>All Awesome Books</h2>
+      <div class="books-wrapper" id="book-banner"></div>
     </section>
     <section class="section2">
-      <form class="input-wrapper" id="wrapper">
-        <input type="text" placeholder="Title" id="title" name="title" />
-        <input type="text" placeholder="Author" id="author" name="author" />
+      <span class="short line"></span>
+      <h2>Add a New Book</h2>
+      <form class="input-wrapper" id="form-banner">
+        <input
+          type="text"
+          placeholder="Title"
+          id="title"
+          name="title"
+          required
+        />
+        <input
+          type="text"
+          placeholder="Author"
+          id="author"
+          name="author"
+          required
+        />
         <button type="submit" class="add-btn">Add</button>
       </form>
     </section>

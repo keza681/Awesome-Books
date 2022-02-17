@@ -2,16 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
 }
 
 h1 {
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
-.nav {
-  padding: 5px;
-  margin: 2%;
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .section1,
@@ -25,12 +27,29 @@ h1 {
 }
 
 .section1 {
-  margin-top: 10vh;
+  margin-top: 25px;
   height: auto;
 }
 
+.books-wrapper {
+  list-style: none;
+  width: 70vw;
+}
+
+.display {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5px;
+}
+
+.books-wrapper li:nth-child(odd) {
+  background-color: #999;
+  color: #000;
+}
+
 .section2 {
-  margin-top: 10%;
+  margin-top: 25px;
   max-width: 300px;
   height: 200px;
 }
@@ -38,6 +57,22 @@ h1 {
 form {
   display: flex;
   flex-direction: column;
+}
+
+.books-wrapper,
+input,
+.add-btn {
+  border: 3px solid black;
+  text-transform: capitalize;
+}
+
+.remove {
+  box-shadow: 3px 2px 0 0 black;
+  border: 2px solid black;
+  text-align: center;
+  padding: 2px;
+  height: 25px;
+  cursor: pointer;
 }
 
 form input {
@@ -50,9 +85,21 @@ form button {
   width: 70px;
 }
 
-.separator {
+.line {
   width: 300px;
-  border: 1px solid #999;
+  border: 2px solid rgb(31, 31, 31);
   display: block;
   margin: 15px 0;
+}
+
+.short {
+  width: 100px;
+}
+
+.add-btn {
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  left: 76%;
 }
