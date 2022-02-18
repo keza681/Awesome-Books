@@ -2,12 +2,12 @@
 
 # *Manage books collection*
 
- >(Plain JS with classes)
+ >Complete website with navigation.
 
 
 
 
-![Screenshot](./screenshot2.png)
+![Screenshot](./screenshot3.png)
 
 
 ## Built With

@@ -6,14 +6,48 @@
 }
 
 h1 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+  border-top: 1.6px solid black;
+  padding-top: 20px;
 }
 
-h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid #000;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.nav h1 {
+  border: none;
+  font-size: 28px;
+  padding: 1%;
+}
+
+.nav ul {
+  display: flex;
+  width: 40%;
+}
+
+.nav ul li {
+  list-style-type: none;
+  border-right: 2px solid #000;
+  width: 30%;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
 }
 
 .section1,
@@ -26,9 +60,19 @@ h2 {
   padding: 20px;
 }
 
-.section1 {
-  margin-top: 25px;
-  height: auto;
+.event {
+  display: flex;
+  justify-content: end;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.section1,
+.section3 {
+  height: 63vh;
+  overflow-y: hidden;
 }
 
 .books-wrapper {
@@ -43,15 +87,21 @@ h2 {
   padding: 10px 5px;
 }
 
+.remove {
+  text-align: center;
+  padding: 2px;
+  height: 25px;
+  cursor: pointer;
+}
+
 .books-wrapper li:nth-child(odd) {
   background-color: #999;
   color: #000;
 }
 
 .section2 {
-  margin-top: 25px;
-  max-width: 300px;
-  height: 200px;
+  margin-top: 7%;
+  width: 40vw;
 }
 
 form {
@@ -60,34 +110,26 @@ form {
 }
 
 .books-wrapper,
+.add-btn,
 input,
-.add-btn {
-  border: 3px solid black;
+.remove {
+  border: 2px solid black;
   text-transform: capitalize;
 }
 
-.remove {
-  box-shadow: 3px 2px 0 0 black;
-  border: 2px solid black;
-  text-align: center;
-  padding: 2px;
-  height: 25px;
-  cursor: pointer;
-}
-
 form input {
-  width: 300px;
+  width: 40vw;
   padding: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 form button {
-  width: 70px;
+  width: 80px;
 }
 
-.line {
+.separator {
   width: 300px;
-  border: 2px solid rgb(31, 31, 31);
+  border: 1px solid #000;
   display: block;
   margin: 15px 0;
 }
@@ -97,9 +139,48 @@ form button {
 }
 
 .add-btn {
-  padding: 5px;
+  padding: 2px;
   font-weight: bold;
   cursor: pointer;
-  position: relative;
-  left: 76%;
+}
+
+.footer {
+  border: 3px solid #000;
+  text-align: center;
+  padding: 15px;
+  position: absolute;
+  bottom: 2%;
+  left: 4%;
+  width: 90%;
+}
+
+.hide {
+  display: none;
+}
+
+.nav ul .current {
+  background-color: #fff;
+  color: rgb(24, 10, 233);
+  border: 0.7px solid #fff;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+  width: 100%;
+  height: 39px;
+}
+
+.nav ul .current a {
+  color: #fff;
+  padding: 8px;
+}
+
+#date-area {
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px 5% 0 0;
+}
+
+.nav ul .nope {
+  border-right: none;
 }
