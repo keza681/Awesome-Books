@@ -9,17 +9,22 @@
 
     <title>Awesome Books</title>
   </head>
-  <body>
+  <body onload=displayTime();>
     <nav class="nav">
       <h1 class="nav-title">Awesome Books</h1>
+      <ul>
+        <li class=""><a href="#" id="book-list">List</a></li>
+        <li class=""><a href="#" id="add-book">Add new</a></li>
+        <li class="nope"><a href="#" id="contact">Contact</a></li>
+      </ul>
     </nav>
-  
-    <section class="section1">
+    <div class="date-area" id="date-area">
+    </div>
+    <section class="hide section1">
       <h2>All Awesome Books</h2>
       <div class="books-wrapper" id="book-banner"></div>
     </section>
     <section class="section2">
-      <span class="short line"></span>
       <h2>Add a New Book</h2>
       <form class="input-wrapper" id="form-banner">
         <input
@@ -39,6 +44,25 @@
         <button type="submit" class="add-btn">Add</button>
       </form>
     </section>
+
+    <section class="hide section3">
+      <h2>Contact Information</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, enim!.</p>
+      <ul>
+        <li>Keza Linda</li>
+        <li>
+          <ul>
+            <li>Mail:Keza@awesomebooks.com</li>
+            <li>Number: Office &#0100110100110;</li>
+            <li>Address: Paris, France.</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <p>&copy;Keza 2022 All Right Reserved!</p>
+    </footer>
 
     <script src="script.js"></script>
   </body>
