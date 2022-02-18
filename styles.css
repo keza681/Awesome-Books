@@ -45,8 +45,8 @@ li {
 
 .nav ul li a {
   text-decoration: none;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 12px;
+  font-size: 15px;
+  font-weight: bold;
   color: #000;
 }
 
@@ -159,8 +159,8 @@ form button {
 }
 
 .nav ul .current {
-  background-color: black;
-  color: #fff;
+  background-color: #fff;
+  color: rgb(24, 10, 233);
   border: 0.7px solid #fff;
   border-radius: 50px;
   display: flex;
